@@ -1,0 +1,17 @@
+echo "# python_start" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pandanomik/python_start.git
+git push -u origin main
+
+print('Hello, World!')
+
+Name = "Michael Jackson")
+print(Name[0]) 
+print(Name[-1])
+print(Name[0:4])
+print(Name[::2])
+len(Name)
+# \n means new line where \t is a tab
